@@ -54,16 +54,6 @@ python -X utf8 scripts/inspect_pptx.py "presentation.pptx" --output "inspection.
 
 它按演示顺序清点正文／隐藏页、文本、备注、原生公式，并提示底部框显式格式等线索，不修改输入 PPT。警告不等于失败；主题继承、分组坐标和兼容公式仍需实际渲染复核。结构读取成功不代表事实、版面或公式正确。
 
-## 文件与公开范围
-
-| 文件 | 内容 |
-|---|---|
-| [SKILL.md](SKILL.md) | 阶段选择、默认偏好、执行主线 |
-| [agents/openai.yaml](agents/openai.yaml) | Codex 界面名称与默认提示 |
-| [references/](references/) | 材料、叙事、版式、技术表达、引用与制作验证 |
-| [scripts/inspect_pptx.py](scripts/inspect_pptx.py) | 只读结构检查器 |
-
-公开版基于本地 1.2.0，省略两份私人项目历史案例及相关入口，移除本机路径、真实姓名、聊天链接和研究快照。保留可复用工作流；不附私人论文、汇报成品或第三方参考 PDF。关于科研叙事的部分建议参考用户提供的《发顶刊的秘密，是如何讲好一个科研故事》（署名“静子学姐”，发布日期未核实），仅作为编辑经验，不作为科学证据或发表保证。
 
 ## 许可证与引用
 
@@ -98,7 +88,5 @@ python -X utf8 scripts/inspect_pptx.py presentation.pptx --output inspection.jso
 It reports slide order, hidden slides, text, notes, native equations and explicit formatting clues. It does not modify the input. Warnings need review and do not imply failure. Inherited styles, grouped coordinates and compatibility branches require visual inspection; structural success does not establish scientific or layout correctness.
 
 ### Public edition, attribution and license
-
-Based on local version 1.2.0, this edition omits two private project histories, machine-specific paths, personal names, chat links and research snapshots. Reusable instructions remain in `SKILL.md`, `agents/`, `references/` and `scripts/`. Private decks, manuscripts and third-party PDFs are excluded. Some storytelling guidance draws on a user-supplied Chinese editorial essay attributed to 静子学姐, with no verified publication date; it is editorial advice, not scientific evidence or a publication guarantee.
 
 Original repository instructions and scripts are MIT-licensed. External tools, assets, fonts and references retain their own licenses. To cite this skill, use the citation above; version 1.2.0 refers to the public edition.
