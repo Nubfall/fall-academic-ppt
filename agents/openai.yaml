@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fall 学术汇报PPT全流程"
+  short_description: "按个人偏好沿用模板，讲清研究主线、模型公式和必要引用，制作PPT与逐页讲稿"
+  default_prompt: "使用 $fall-academic-ppt，按我的汇报偏好从现有材料确定研究重点和故事线，制作或修改面向老师的可编辑PPT，并按需配套逐页讲稿"
